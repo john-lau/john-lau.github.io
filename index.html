@@ -1,1 +1,239 @@
-Hello World
+<!DOCTYPE html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   
+    <!-- jQuery UI -->
+    <link rel='stylesheet' type='text/css' href='http://code.jquery.com/ui/1.9.1/themes/base/jquery-ui.css'/>
+
+    
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script type='text/javascript' src='js/website.js'></script>
+    <script src="js/animations.js"></script>
+    <script src="js/typewriting.min.js"></script>
+
+
+    <!-- Bootstrap core CSS -->
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" rel="stylesheet" type="text/css">
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js" rel="javascript">
+
+    <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+
+    <!-- Add custom CSS here -->
+    <link href="css/style.css" rel="stylesheet" type="text/css">
+
+    <!-- Fonts -->
+    <link href='http://fonts.googleapis.com/css?family=Maven+Pro:400,500,700,900' rel='stylesheet' type='text/css'>
+
+    <title>John Lau</title>
+
+  </head>
+
+  <body>
+<!--     <nav class="navbar transparent navbar-fixed-top">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="#">JH</a>
+        </div>
+        <div id="navbar" class="navbar-collapse collapse">
+            
+          <ul class="nav navbar-nav navbar-right">
+            <li><a href="../navbar/">About Me</a></li>
+            <li><a href="../navbar-static-top/">Experience</a></li>
+            <li><a href="../navbar-static-top/">Github</a></li>
+            <li><a href="../navbar-static-top/">LinkedIn</a></li>
+            
+          </ul>
+        </div>
+      </div>
+    </nav> -->
+    
+
+
+    <!-- Full Page Image Header & Nav Bar-->
+    <div id="top" class="header">
+      <div class="vert-text">
+     
+          <div clas="row">
+            <div class="col-md-6 col-md-offset-3">
+                <div class="row" style="margin-bottom:5%;">
+                  <a class="brand" href="#">John Lau</a>
+                </div>  
+
+                <div class="row">
+                   <ul class="myLinks">
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#exp">Experience</a></li>
+                    <li><a href="#proj">Projects</a></li>
+
+                    <li><a href="http://github.com/john-lau" target="_blank">Github</a></li>
+                    <li><a href="https://www.linkedin.com/in/john2lau" target="_blank">LinkedIn</a></li>
+                    
+                  </ul>
+                </div>
+
+                <div class="row">
+                <a href="#top1"><h1 class="helloWorld"><span class="glyphicon glyphicon-menu-down" aria-hidden="true"></span></h1></a>
+
+                </div>
+
+            </div>
+          </div>
+
+         
+        </div>
+
+    </div>
+
+    <div class="container-fluid">
+      <a class='top-button' id="top1"><i class="fa fa-arrow-circle-up fa-3x"></i></a>
+    </div>
+
+    <div class="container" id="scroll-to">
+      <div id="about" class="intro">
+       
+
+
+        <div class="row">
+         
+
+          <div class="col-md-9">
+              <h2 style="color:#228B22"> 
+              <div class="terminal"></div>
+
+              <script>
+                // var element_position = $('#scroll-to').offset().top;
+
+                //   $(window).on('scroll', function() {
+                //   var y_scroll_pos = window.pageYOffset;
+                //   var scroll_pos_test = element_position;
+
+                //   if(y_scroll_pos > scroll_pos_test) {                   
+                //     var typeWriting = new TypeWriting({
+                //       targetElement   : document.getElementsByClassName('terminal')[0],
+                //       inputString     : '>> Hello, world.',
+                //       typing_interval : 130, // Interval between each character
+                //       blink_interval  : '1s', // Interval of the cursor blinks
+                //       cursor_color    : '#228B22', // Color of the cursor
+                //       }, function() {
+                //       console.log("END");
+                //     });                 
+                //   }        
+                // });
+                
+                    var typeWriting = new TypeWriting({
+                      targetElement   : document.getElementsByClassName('terminal')[0],
+                      inputString     : '>> Hello, world!',
+                      typing_interval : 140, // Interval between each character
+                      blink_interval  : '1s', // Interval of the cursor blinks
+                      cursor_color    : '#228B22', // Color of the cursor
+                      }, function() {
+                      console.log("END");
+                    });
+
+
+              </script>
+
+              </h2><br/>
+             
+              <p>I am currently a third year <b>Computer Science</b> major at the University of California, Santa Barbara. I'm a student who is interested in exploring the world of development and seeing how I can apply what I learn from school into real life products.</p>
+
+             <!-- <p>I'm passionate about the power technology holds to positively shape our lives - whether that be <b>open source educational platforms</b>, or <b>machine learning algorithms</b> that help diagnose rare forms of cancer. We all have a purpose in this world to make an impact, and I believe that computer science provides exponential opportunities to do so.</p>
+            -->
+
+              <p>When I'm not busy coding, I enjoy spending time with my friends, playing badminton, going to the gym, and eating food.</p>
+                          
+          </div>
+
+         <!--  <div class="col-md-3">
+            <img src="img/johnLau.jpg" style="width:100%;"/>
+          </div> -->
+        </div>
+
+      </div>
+    </div>
+
+   <!--  START EXPERIENCE SECTION -->
+
+
+    <div id="exp" class="experience">
+      <div class="vert-text">
+     
+          <div class="row">
+            <div class="col-md-6 col-md-offset-3">
+                <div class="row">
+                  <a class="brand" href="#exp">Experience</a>
+                </div>  
+                <div class="row">
+                  <a href="#companies"><h2 class="helloWorld"><span class="glyphicon glyphicon-menu-down" aria-hidden="true"></span></h1></a>
+                </div>
+            </div>
+          </div>
+      </div>
+
+    </div>
+
+    <div id="companies" class="Tables">
+      <table>
+        <tr>
+          <td class="col-md-4"> <a href="www.novacoast.com" target="_blank"> <img src="img/novacoast.jpg"></a> </td>
+          <td class="col-md-8"> As a developer intern, I worked with other employees and company client's to create applications and products to their specific needs. The languages and software andI utilized to achieve these goals include HTML/CSS, Javascript, sql, .NET, C#, Java, and more. </td>
+        </tr>
+
+        <tr>
+          <td class="col-md-4"> <a href="www.facebook.com/groups/coderssb/" target="_blank"> <img src="img/coderssb.jpg"></a> </td>
+          <td class="col-md-8"> I am a founding member and vice president of Coders SB, a relatively new and upcoming computer science club at UCSB. Our goal with Coders SB has been to help expose students to the tech industry, and equip them with the knowledge needed to complete their own projects and work at their dream company.</td>
+        </tr>
+
+        <tr>
+          <td class="col-md-4"> <a href="www.collaborate.ucsb.edu" target="_blank"> <img src="img/collabLab.jpg"></a> </td>
+          <td class="col-md-8"> I was a technology consultant and provided troubleshooting to all computer related problems at the computer labs and instructional buildings at UCSB.</td>
+        </tr>
+
+
+      </table>
+
+    </div>
+
+<!--   START PROJECTS SECTION    -->
+
+
+    <div id="proj" class="project">
+      <div class="vert-text">
+     
+          <div clas="row">
+            <div class="col-md-6 col-md-offset-3">
+                <div class="row">
+                  <a class="brand" href="#proj">Projects</a>
+                </div>  
+                <div class="row">
+                  <a href="#projects"><h2 class="helloWorld"><span class="glyphicon glyphicon-menu-down" aria-hidden="true"></span></h1></a>
+                </div>
+            </div>
+          </div>
+      </div>
+
+    </div>
+
+    <div id="projects">
+      <table id="experienceTable">
+        <tr>
+          <td class="col-md-4"> <a href="www.novacoast.com" target="_blank"> <img src="img/spotifood.jpg"></a> </td>
+          <td class="col-md-8"> A restaurant recommendation web application created with 3 other teammates. We utilized the meteor framework and Google Maps API for the app. Although we did not fully complete it, this project gave us insight on how apps are developed and deployed, and served as a great reference for us to work off of in our other projects. </td>
+        </tr>
+
+
+    </div>
+
+  
+   
+
+  </body>
+
+</html> 
