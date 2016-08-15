@@ -148,8 +148,9 @@ p {
 }
 
 
-.Tables {
-  padding: 25px;
+.testing th, .testing td {
+  border: 1px solid black;
+  text-align: center;
 }
 
 
@@ -191,25 +192,10 @@ p {
 
 }
 
-
-
-
-
-
-/* Callout */
-
-.callout {
-  color: #ffffff;
-  display: table;
-  height: 100%;
-  width: 100%;
-  background: url(../img/hiking.jpg) no-repeat center center fixed; 
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
+.col-centered{
+    float: none;
+    margin: 0 auto;
 }
-
 
 
 
@@ -235,15 +221,13 @@ p {
 
 }
 
-.section h4 {
+/*.section h4 {
   color: white;
   vertical-align: middle;
   font-size:20px;
   text-align: center;
 
-
-
-}
+}*/
 
 /* Responsive */
 
@@ -253,11 +237,3 @@ p {
   background: url(../img/coverPhoto.jpg) no-repeat center center scroll; 
   }
 
-  .callout {
-/*	   background: url(../img/callout.jpg) no-repeat center center scroll; 
-*/  }
-
-  .map {
-  height: 75%;
-  }
-}
