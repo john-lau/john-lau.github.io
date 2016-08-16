@@ -148,9 +148,10 @@ p {
 }
 
 
-.testing th, .testing td {
-  border: 1px solid black;
+.testing, .testing th, .testing td {
   text-align: center;
+  border-collapse: separate;
+  border-spacing: 0 25px;
 }
 
 
@@ -199,8 +200,6 @@ p {
 
 
 
-
-
 .top-button {
   margin-top:2%;
   float:right;
@@ -220,14 +219,6 @@ p {
 
 
 }
-
-/*.section h4 {
-  color: white;
-  vertical-align: middle;
-  font-size:20px;
-  text-align: center;
-
-}*/
 
 /* Responsive */
 
